@@ -1,0 +1,43 @@
+@import (reference) "../../styles/colors.less";
+@import (reference) "../../styles/sizes.less";
+
+#recording-list-container {
+  padding: 10px;
+  height: 200px;
+  background-color: @black;
+  border-radius: 8px;
+  overflow: auto;
+  #recording-list-wrapper {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    .recording-list-item {
+      position: relative;
+      color: @lightgrey;
+      padding: 5px 2px 5px 30px;
+      list-style-type: none;
+      font-size: @font-size_18;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      .icon {
+        position: absolute;
+        left: 12px;
+        width: 18px;
+        height: 18px;
+      }
+
+      &.selected-recording {
+        color: @white;
+        background-color: rgba(255,255,255,0.3);
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .default-phrase-recording-list {
+    color: grey;
+    font-size: @font-size_18;
+    text-align: center;
+  }
+}

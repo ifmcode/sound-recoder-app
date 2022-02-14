@@ -1,0 +1,125 @@
+@import (reference) "../../styles/colors.less";
+
+.circular-button {
+  position: relative;
+  border-radius: 50%;
+  background-color: @darkgrey;
+  border: 0;
+  cursor: pointer;
+
+  .circle-1 {
+    background-color: @black;
+  }
+
+  .circle-2 {
+    background-color: @darkgrey;
+  }
+
+  .circle-1, .circle-2 {
+    border-radius: 50%;
+  }
+
+  .circle-1, .circle-2, .icon, svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  //states
+  &.is-recording {
+    .circle-1 {
+      animation: pulse 2s infinite;
+    }
+  }
+
+  // sizes
+  &.small-button {
+    width: 28px;
+    height: 28px;
+    .circle-1 {
+      width: 24px;
+      height: 24px;
+      .circle-2 {
+        width: 22px;
+        height: 22px;
+        .icon {
+          width: 20px;
+          height: 20px;
+          svg {
+            width: 14px;
+            height: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  &.medium-button {
+    width: 48px;
+    height: 48px;
+    .circle-1 {
+      width: 38px;
+      height: 38px;
+      .circle-2 {
+        width: 34px;
+        height: 34px;
+        .icon {
+          width: 34px;
+          height: 34px;
+          svg {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  &.big-button {
+    width: 144px;
+    height: 144px;
+    .circle-1 {
+      width: 120px;
+      height: 120px;
+      .circle-2 {
+        width: 106px;
+        height: 106px;
+        .icon {
+          width: 55px;
+          height: 55px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes pulse {
+	0% {
+		background-color: rgba(32, 200, 192, 1);
+	}
+
+	15% {
+		background-color: rgba(32, 200, 192, 0.6);
+	}
+
+	30% {
+		background-color: rgba(32, 200, 192, 0.3);
+	}
+
+	50% {
+		background-color: rgba(32, 200, 192, 0.1);
+	}
+
+	70% {
+		background-color: rgba(32, 200, 192, 0.3);
+	}
+
+	85% {
+		background-color: rgba(32, 200, 192, 0.6);
+	}
+
+	100% {
+		background-color: rgba(32, 200, 192, 1);
+	}
+}

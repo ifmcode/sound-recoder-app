@@ -1,0 +1,37 @@
+@import (reference) "./styles/colors.less";
+@import (reference) "./styles/sizes.less";
+
+div#root {
+  width: @appWidth;
+  height: @appHeight;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: @grey;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  h1 {
+    color: @bluegreen;
+    margin: 30px 0;
+  }
+}
+
+main {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  .loading-phrase {
+    color: @white;
+    text-align: center;
+  }
+}

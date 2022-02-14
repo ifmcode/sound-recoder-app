@@ -1,0 +1,75 @@
+@import (reference) "../../styles/colors.less";
+@import (reference) "../../styles/sizes.less";
+
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+  .text-container {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 80%;
+    height: auto;
+    background-color: @grey;
+    border: 3px solid @bluegreen;
+    border-radius: 6px;
+    padding: 14px;
+    box-sizing: border-box;
+    text-align: center;
+
+    .popup-title {
+      position: relative;
+      font-size: @font-size_18;
+      color: @white;
+      margin-bottom: 30px;
+      display: block;
+      text-align: center;
+    }
+    
+    .popup-advice {
+      position: relative;
+      font-size: @font-size_18;
+      color: @bluegreen;
+      margin-bottom: 8px;
+    }
+
+    .popup-input {
+      margin-bottom: 25px;
+      width: 220px;
+      height: 30px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      border-radius: 6px;
+
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .buttons-container {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10px;
+      .popup-button {
+        position: relative;
+        padding: 3px 20px;
+        font-size: @font-size_18;
+        color: @bluegreen;
+        background-color: @darkgrey;
+        cursor: pointer;
+        border: 2px solid @black;
+        transition: all .5s ease-in-out;
+        &:hover {
+          background-color: @black;
+        }
+      }
+    }
+  }
+}

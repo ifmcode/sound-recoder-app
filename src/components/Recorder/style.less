@@ -1,0 +1,83 @@
+@import (reference) "../../styles/colors.less";
+@import (reference) "../../styles/sizes.less";
+
+main {
+  .buttons-section, #recording-list-container {
+    margin-bottom: 30px;
+  }
+
+  .buttons-section, .big-buttons-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  #recording-list-container {
+    position: relative;
+  }
+
+  .big-buttons-section {
+    align-items: center;
+    margin-bottom: 50px;
+    .button-container {
+      span {
+        position: relative;
+        display: block;
+        font-size: @font-size_10;
+        line-height: @font-size_10;
+        text-transform: uppercase;
+        color: @black;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .circular-button {
+        position: relative;
+        display: block;
+      }
+    }
+
+    span.is-recording {
+      color: @bluegreen;
+    }
+  }
+
+  .playbar-section {
+    .rhap_container {
+      background-color: transparent;
+      padding: 0;
+    }
+
+    .rhap_current-time, .rhap_total-time {
+      color: @bluegreen;
+      height: 20px;
+    }
+
+    .rhap_progress-bar {
+      background-color: @black;
+      height: 16px;
+      border-radius: 10px;
+      border: 3px solid @darkgrey;
+      box-sizing: border-box;
+      .rhap_progress-filled {
+        border-radius: 10px;
+      }
+    }
+
+    .rhap_progress-filled {
+      background-color: @bluegreen;
+    }
+
+    .rhap_controls-section {
+      justify-content: center;
+      margin: 20px auto;
+      width: 67px;
+    }
+
+    .rhap_progress-indicator, .rhap_main-controls, .rhap_additional-controls, .rhap_volume-controls {
+      display: none;
+    }
+  }
+}

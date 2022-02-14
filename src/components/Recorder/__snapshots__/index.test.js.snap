@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Recorder with an empty list of recordings should render the Recorder component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="buttons-section"
+      >
+        <button
+          class="button undefined-button"
+        >
+          My list
+        </button>
+        <button
+          class="circular-button settings-button small-button "
+        >
+          <div
+            class="circle-1"
+          >
+            <div
+              class="circle-2"
+            >
+              <div
+                class="icon settings-icon"
+              >
+                <svg>
+                  settings.svg
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </section>
+      <div
+        id="recording-list-container"
+      >
+        <p
+          class="default-phrase-recording-list"
+        >
+          - Loading recordings -
+        </p>
+      </div>
+      <section
+        class="big-buttons-section"
+      >
+        <div
+          class="button-container"
+        >
+          <span>
+            Send
+          </span>
+          <button
+            class="circular-button plane-button medium-button "
+          >
+            <div
+              class="circle-1"
+            >
+              <div
+                class="circle-2"
+              >
+                <div
+                  class="icon plane-icon"
+                >
+                  <svg>
+                    plane.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="button-container"
+        >
+          <span
+            class=""
+          >
+            Rec
+          </span>
+          <button
+            class="circular-button recording-button big-button "
+          >
+            <div
+              class="circle-1"
+            >
+              <div
+                class="circle-2"
+              >
+                <div
+                  class="icon recording-icon"
+                >
+                  <svg>
+                    recording.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="button-container"
+        >
+          <span>
+            Delete
+          </span>
+          <button
+            class="circular-button trash-button medium-button "
+          >
+            <div
+              class="circle-1"
+            >
+              <div
+                class="circle-2"
+              >
+                <div
+                  class="icon trash-icon"
+                >
+                  <svg>
+                    trash.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </section>
+      <section
+        class="buttons-section last-section"
+      >
+        <button
+          class="button large-button"
+        >
+          Save
+        </button>
+        <button
+          class="button large-button"
+        >
+          Play
+        </button>
+        <button
+          class="button large-button"
+        >
+          Edit
+        </button>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="buttons-section"
+    >
+      <button
+        class="button undefined-button"
+      >
+        My list
+      </button>
+      <button
+        class="circular-button settings-button small-button "
+      >
+        <div
+          class="circle-1"
+        >
+          <div
+            class="circle-2"
+          >
+            <div
+              class="icon settings-icon"
+            >
+              <svg>
+                settings.svg
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+    </section>
+    <div
+      id="recording-list-container"
+    >
+      <p
+        class="default-phrase-recording-list"
+      >
+        - Loading recordings -
+      </p>
+    </div>
+    <section
+      class="big-buttons-section"
+    >
+      <div
+        class="button-container"
+      >
+        <span>
+          Send
+        </span>
+        <button
+          class="circular-button plane-button medium-button "
+        >
+          <div
+            class="circle-1"
+          >
+            <div
+              class="circle-2"
+            >
+              <div
+                class="icon plane-icon"
+              >
+                <svg>
+                  plane.svg
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        class="button-container"
+      >
+        <span
+          class=""
+        >
+          Rec
+        </span>
+        <button
+          class="circular-button recording-button big-button "
+        >
+          <div
+            class="circle-1"
+          >
+            <div
+              class="circle-2"
+            >
+              <div
+                class="icon recording-icon"
+              >
+                <svg>
+                  recording.svg
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        class="button-container"
+      >
+        <span>
+          Delete
+        </span>
+        <button
+          class="circular-button trash-button medium-button "
+        >
+          <div
+            class="circle-1"
+          >
+            <div
+              class="circle-2"
+            >
+              <div
+                class="icon trash-icon"
+              >
+                <svg>
+                  trash.svg
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </section>
+    <section
+      class="buttons-section last-section"
+    >
+      <button
+        class="button large-button"
+      >
+        Save
+      </button>
+      <button
+        class="button large-button"
+      >
+        Play
+      </button>
+      <button
+        class="button large-button"
+      >
+        Edit
+      </button>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

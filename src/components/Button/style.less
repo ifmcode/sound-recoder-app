@@ -1,0 +1,21 @@
+@import (reference) "../../styles/colors.less";
+@import (reference) "../../styles/sizes.less";
+
+.button {
+  position: relative;
+  border: 3px solid @black;
+  border-radius: 10px;
+  width: auto;
+  padding: 7px 16px;
+  color: @bluegreen;
+  font-size: @font-size_10;
+  line-height: @font-size_10;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+
+  &.large-button {
+    padding: 7px 20px;
+  }
+}
